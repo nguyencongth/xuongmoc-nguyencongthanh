@@ -1,0 +1,123 @@
+
+@media screen and (max-width: 767px) {
+    #banner .banner-content {
+        padding: 34px;
+    }
+    #banner .banner-content p{
+        font-size: 20px !important;
+    }
+    #banner .banner-content img {
+        width: 56px;
+        height: auto;
+    }
+    #banner .banner-img img {
+        height: 10rem !important;
+    }
+}
+/* header */
+#header {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#header .header-nav {
+    font-size: 20px;
+}
+#header .sub-nav .a::before {
+    position: absolute;
+    content: '';
+    width: 60px;
+    height: 2px;
+    top: 90%;
+    left: 10%;
+    border-bottom: 0.3rem solid #bd945f;
+    transition: 0.3s ease;
+}
+@media screen and (max-width: 991px) {
+    #header .sub-nav .a::before {
+        position: absolute;
+        content: '';
+        width: 60px;
+        height: 2px;
+        top: 90%;
+        left: 0;
+        border-bottom: 0.3rem solid #bd945f;
+        transition: 0.3s ease;
+    }
+}
+/* banner */
+#banner {
+    margin-top: 122px;
+    position: relative;
+}
+#banner .banner-img img {
+    width: 100%;
+    height: auto;
+}
+#banner .banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#banner .banner-content img {
+    display: block;
+    margin: 0 auto;
+}
+#banner .banner-content p {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+/* contact */
+#contact {
+    margin-bottom: 70px;
+}
+#contact .box-form .contact-title {
+    font-size: 24px;
+    color: #bd945f;
+    font-weight: 600;
+}
+#contact .box-form .submit {
+    background-color: #bd945f;
+    display: inline-block;
+    padding: 16px 46px;
+    border-radius: 6px;
+}
+#contact .box-form .submit a{
+    font-size: 18px;
+    color: #fff;
+}
+/* footer */
+#footer {
+    background-color: #363636;
+    padding: 70px 0;
+}
+#footer h5 {
+    color: #fff;
+    position: relative;
+    padding: 5px 0;
+    margin-bottom: 18px;
+}
+#footer h5::before {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 0;
+    width: 60px;
+    height: 1px;
+    border-top: 4px solid #fff;
+}
+#footer h4 {
+    color: #fff;
+}
+#footer ul {
+    display: block;
+    padding-left: 0;
+}
+#footer li a {
+    color: #fff;
+}

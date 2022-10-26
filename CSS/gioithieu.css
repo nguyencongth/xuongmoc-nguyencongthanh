@@ -1,0 +1,152 @@
+
+/* header */
+#header {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#header .header-nav {
+    font-size: 20px;
+}
+#header .sub-nav .a::before {
+    position: absolute;
+    content: '';
+    width: 60px;
+    height: 2px;
+    top: 90%;
+    left: 10%;
+    border-bottom: 0.3rem solid #bd945f;
+    transition: 0.3s ease;
+}
+@media screen and (max-width: 991px) {
+    #header .sub-nav .a::before {
+        position: absolute;
+        content: '';
+        width: 60px;
+        height: 2px;
+        top: 90%;
+        left: 0;
+        border-bottom: 0.3rem solid #bd945f;
+        transition: 0.3s ease;
+    }
+}
+/* banner */
+#banner {
+    margin-top: 123px;
+    position: relative;
+}
+#banner .banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#banner .banner-content img {
+    display: block;
+    margin: 0 auto;
+}
+#banner .banner-content p {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+/* Thành lập và phát triển */
+#section {
+    margin-bottom: 100px;
+}
+#section .content-section {
+    position: relative; 
+    margin-top: -40px;
+}
+#section .title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+#section .title {
+    position: relative;
+    padding-top: 60px;
+}
+#section .title::before {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 180px;
+    height: 1px;
+    border-top: 4px solid #bd945f;
+}
+#section .section-content {
+    font-size: 1em;
+    text-align: justify;
+    line-height: 2;
+    font-weight: 600;
+}
+/* xứ mệnh */
+.title-reason {
+    margin-top: 80px;
+}
+
+.reason {
+    background-color: #fff;
+    margin-bottom: 50px;
+    border: 1px solid #bd945f;
+}
+
+.reason .reason-title {
+    color: #bd945f;
+    font-size: 1.4em;
+    /* font-weight: 600; */
+    text-transform: uppercase;
+}
+
+.reason .reason-desc {
+    color: #2c2e53;
+    font-size: 0.9em;
+    /* font-weight: 600; */
+    text-align: justify;
+}
+
+.reason .reason-content {
+    padding: 1.6em;
+}
+
+.reason .reason-img {
+    display: flex;
+    align-items: center;
+    padding-left: 32px;
+}
+
+/* footer */
+#footer {
+    background-color: #363636;
+    padding: 70px 0;
+}
+#footer h5 {
+    color: #fff;
+    position: relative;
+    padding: 5px 0;
+    margin-bottom: 18px;
+}
+#footer h5::before {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 0;
+    width: 60px;
+    height: 1px;
+    border-top: 4px solid #fff;
+}
+#footer h4 {
+    color: #fff;
+}
+#footer ul {
+    display: block;
+    padding-left: 0;
+}
+#footer li a {
+    color: #fff;
+}
