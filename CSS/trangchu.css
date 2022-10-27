@@ -14,16 +14,7 @@
     font-size: 40px;
     font-weight: 700;
     text-align: center;
-}
-#header {
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    right: 0;
-}
-#header .header-nav {
-    font-size: 20px;
+    font-family: Gotham-Ultra;
 }
 
 #header .sub-nav .a::before {
@@ -63,6 +54,7 @@
     
 }
 .banner-index h1 {
+    font-family: Gotham-Ultra;
     font-size: 2.0em;
     color: #2c2e53;
     margin-bottom: 0.5em;
@@ -72,6 +64,7 @@
     text-align: justify;
     margin-bottom: 2em;
     font-size: 1em;
+    font-family: Gotham-Medium;
 }
 .banner-index a {
     display: inline-block;
@@ -79,6 +72,7 @@
     background: #bd945f;
     color: #fff;
     font-size: 1em;
+    font-family: Gotham-Ultra;
 }
 @media screen and (max-width: 767px){
     .banner-index .content h1 {
@@ -129,6 +123,7 @@
     padding: 12px 0;
     color: #2c2e53;
     font-size: 16px;
+    font-family: Gotham-Ultra;
 }
 
 /* hot-product */
@@ -176,6 +171,9 @@
 #hot-product .product .product-price {
     font-size: 18px;
 }
+.product-slider {
+    font-family: Gotham-Medium;
+}
 
 
 
@@ -204,9 +202,10 @@
 #about-us {
     color: #fff;
     text-align: justify;
-
 }
-
+.about-us-content {
+    font-family: Gotham-Medium;
+}
 /* reason */
 #about-us .title-reason {
     margin-top: 80px;
@@ -214,18 +213,20 @@
 
 #about-us .reason {
     background-color: #fff;
-    margin-bottom: 50px;
+    margin-bottom: 24px;
 }
 
 #about-us .reason .reason-title {
     color: #bd945f;
     font-size: 1.4em;
+    font-family: Gotham-Ultra;
     /* font-weight: 600; */
 }
 
 #about-us .reason .reason-desc {
     color: #2c2e53;
     font-size: 0.9em;
+    font-family: Gotham-Medium;
 }
 
 #about-us .reason .reason-content {
@@ -264,10 +265,11 @@
 }
 #news .news-box-left .news-box-content {
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
     width: 100%;
     background-color: #bd945f;
     padding: 1.5em;
+    font-family: Gotham-Medium;
 }
 #news .news-box-left .news-box-content .news-box-content-title {
     color: #fff;
@@ -286,7 +288,7 @@
     padding: 0;
 }
 #news .news-box-right li{
-    margin-bottom: 30px;
+    margin-bottom: 16px;
 }
 #news .news-box-right .news-box-right-content{
     padding-left: 16px;
@@ -295,11 +297,14 @@
     color: #bd945f;
     font-size: 18px;
     text-align: justify;
+    font-family: Gotham-Medium;
+
 }
 #news .news-box-right .news-box-right-content p{
     color: black;
     font-size: 14px;
     margin: 0;
+    font-family: Gotham-Medium;
     text-align: justify;
 }
 
@@ -307,6 +312,8 @@
     color: #bd945f;
     font-size: 20px;
     text-transform: uppercase;
+    font-family: Gotham-Medium;
+
 }
 
 /* partner */
@@ -352,14 +359,17 @@
 
 #contact .title {
     text-align: left;
+    padding-top: 0;
 }
 #contact p {
     font-size: 18px;
+    font-family: Gotham-Medium;
 }
 #contact input {
     border: 2px solid #bd945f;
     width: 100%;
-    padding: 16px 8px 16px 14px;
+    padding: 0 14px;
+    font-family: Gotham-Medium;
 }
 #contact button {
     width: 20%;
@@ -367,40 +377,7 @@
     color: #fff;
     font-size: 20px;
     padding: 16px;
-    margin-top: 20px;
     border: none;
+    font-family: Gotham-Medium;
 }
-
-/* footer */
-
-#footer {
-    background-color: #363636;
-    padding: 70px 0;
-}
-#footer h5 {
-    color: #fff;
-    position: relative;
-    padding: 5px 0;
-    margin-bottom: 18px;
-}
-#footer h5::before {
-    position: absolute;
-    content: '';
-    top: 100%;
-    left: 0;
-    width: 60px;
-    height: 1px;
-    border-top: 4px solid #fff;
-}
-#footer h4 {
-    color: #fff;
-}
-#footer ul {
-    display: block;
-    padding-left: 0;
-}
-#footer li a {
-    color: #fff;
-}
-
 

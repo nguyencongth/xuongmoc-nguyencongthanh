@@ -1,7 +1,19 @@
+
 @font-face {
     font-family: Gotham-Medium;
-    src: url(../font/font/Gotham-Medium-Font/iCiel-fonts/iCiel\ Gotham-Medium.ttf);
+    src: url(../font/iCiel\ Gotham-Medium.ttf);
 }
+
+@font-face {
+    font-family: Gotham-Ultra;
+    src: url(../font/iCiel\ Gotham-Ultra.ttf);
+}
+
+@font-face {
+    font-family: Gotham-Thin;
+    src: url(../font/font/iCiel-fonts/iCiel\ Gotham-Thin.ttf);
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -10,7 +22,8 @@ html, body {
 
 * {
     box-sizing: border-box;
-    font-family: 'Gotham-Medium';
+    /* font-family: 'Gotham-Medium'; */
+    outline: none;
 }
 a {
     text-decoration: none;
@@ -48,6 +61,30 @@ li {
 .slick-current {
     opacity: 1;
 }
+.container {
+    max-width: 1110px;
+}
+
+/* header */
+
+#header {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-family: Gotham-Medium;
+    transition: all 1s ease;
+}
+header.sticky a img {
+    height: 3.5rem;
+}
+header.sticky .sub-nav {
+    font-size: 16px;
+} 
+#header .header-nav {
+    font-size: 20px;
+}
 
 #header .sub-nav a {
     position: relative;
@@ -79,6 +116,7 @@ li {
     }
     
 }
+/* responsive button next, prev */
 @media (max-width: 767px){
     .slick-next {
         display: none !important;
@@ -87,7 +125,7 @@ li {
         display: none !important;
     }
 }
-
+/* responsive banner */
 @media screen and (max-width: 767px) {
     #banner .banner-content {
         padding: 34px;
@@ -109,3 +147,61 @@ li {
         margin-top: -14px !important;
     }
 }
+
+/* footer */
+
+#footer {
+    background-color: #363636;
+    padding: 70px 0 50px 0;
+    font-family: Gotham-Medium;
+}
+#footer h5 {
+    color: #fff;
+    position: relative;
+    padding: 5px 0;
+    margin-bottom: 18px;
+}
+#footer h5::before {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 0;
+    width: 60px;
+    height: 1px;
+    border-top: 4px solid #fff;
+}
+#footer h4 {
+    color: #fff;
+    margin-top: 24px;
+}
+#footer ul {
+    display: block;
+    padding-left: 0;
+}
+#footer li {
+    margin-bottom: 16px;
+}
+#footer li a {
+    color: #fff;
+}
+
+
+
+
+
+
+/* designer */
+.designer {
+    text-align: center;
+    padding: 20px 0;
+    font-family: Gotham-Medium;
+}
+.designer span {
+    color: #bd945f;
+}
+@media (max-width: 767px) {
+    .designer {
+        font-size: 14px;
+    }
+}
+/* end designer */

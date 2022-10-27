@@ -1,16 +1,6 @@
 
 
 /* header */
-#header {
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    right: 0;
-}
-#header .header-nav {
-    font-size: 20px;
-}
 #header .sub-nav .a::before {
     position: absolute;
     content: '';
@@ -50,8 +40,10 @@
 }
 #banner .banner-content p {
     color: #fff;
-    font-size: 45px;
-    font-weight: 600;
+    font-size: 40px;
+    margin-top: 6px;
+    font-family: Gotham-Ultra;
+    text-transform: uppercase;
 }
 
 /* partner */
@@ -64,12 +56,14 @@
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 4px;
+    font-family: Gotham-Ultra;
 }
 
 #partner .partner-content .partner-desc {
     font-size: 18px;
     text-align: justify;
     line-height: 2;
+    font-family: Gotham-Medium;
 }
 
 /* footer */

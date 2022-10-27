@@ -1,14 +1,5 @@
 /* header */
-#header {
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    right: 0;
-}
-#header .header-nav {
-    font-size: 20px;
-}
+
 #header .sub-nav .a::before {
     position: absolute;
     content: '';
@@ -34,7 +25,6 @@
 /* slide */
 #slide {
     margin-top: 120px;
-    /* position: relative; */
 }
 #slide .slide-item img {
     position: relative;
@@ -43,19 +33,17 @@
     position: absolute;
     top: 60%;
     left: 70%;
-    /* margin-top: -60px; */
 }
 #slide .carousel-btn .btn-buy {
-    /* margin-left: 100px; */
     background-color: #fff;
     color: #363636;
     padding: 12px 14px;
+    font-family: Gotham-Medium;
 }
 
 /* product */
 
 #select-option{
-    /* margin-top: 120px; */
     font-family: Gotham-Medium;
     font-size: 14px;
 }
@@ -63,14 +51,12 @@
     color: #bd945f;
 }
 
-.room {
-    max-width: 1024px;
-    margin: 0 auto;
-}
 .room .title {
     position: relative;
     text-transform: uppercase;
     padding-top: 40px;
+    color: #2c2e53;
+    font-family: Gotham-Ultra;
 }
 .room .title::before {
     position: absolute;
@@ -85,14 +71,14 @@
 .room .see-all {
     padding-top: 40px;
     text-transform: uppercase;
+    font-family: Gotham-Medium;
 }
 .room .see-all a {
-    color: #363636;
+    color: #2c2e53;
 }
 .room .see-all a:hover {
     color: #234bce;
 }
-
 
 .room .product .product-title,
 .room .product .product-icon,
@@ -100,10 +86,11 @@
 .room .product .product-price {
     text-align: center;
 }
-.room .product .product-title p a {
-    color: #363636;
+.room .product .product-title .card-title{
+    color: #2c2e53;
     font-size: 18px;
-    font-weight: 600;
+    font-family: Gotham-Ultra;
+    color: #2c2e53;
 }
 .room .product .product-icon {
     color: rgb(219, 219, 54);
@@ -112,40 +99,11 @@
 .room .product .product-content {
     font-size: 16px;
     opacity: 0.5;
+    font-family: Gotham-Medium;
 }
 .room .product .product-price {
-    font-size: 18px;
-}
-
-/* footer */
-#footer {
-    background-color: #363636;
-    padding: 70px 0;
-}
-#footer h5 {
-    color: #fff;
-    position: relative;
-    padding: 5px 0;
-    margin-bottom: 18px;
-}
-#footer h5::before {
-    position: absolute;
-    content: '';
-    top: 100%;
-    left: 0;
-    width: 60px;
-    height: 1px;
-    border-top: 4px solid #fff;
-}
-#footer h4 {
-    color: #fff;
-}
-#footer ul {
-    display: block;
-    padding-left: 0;
-}
-#footer li a {
-    color: #fff;
+    font-size: 16px;
+    font-family: Gotham-Medium;
 }
 
 @media screen and (max-width: 767px) {

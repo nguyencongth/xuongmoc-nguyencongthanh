@@ -1,15 +1,5 @@
 
 /* header */
-#header {
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    right: 0;
-}
-#header .header-nav {
-    font-size: 20px;
-}
 #header .sub-nav .a::before {
     position: absolute;
     content: '';
@@ -50,7 +40,7 @@
 #banner .banner-content p {
     color: #fff;
     font-size: 45px;
-    font-weight: 600;
+    font-family: Gotham-Ultra;
 }
 
 /* Thành lập và phát triển */
@@ -64,6 +54,10 @@
 #section .title {
     text-align: center;
     margin-bottom: 60px;
+    color: #2c2e53;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-family: Gotham-Ultra;
 }
 #section .title {
     position: relative;
@@ -82,8 +76,7 @@
 #section .section-content {
     font-size: 1em;
     text-align: justify;
-    line-height: 2;
-    font-weight: 600;
+    font-family: Gotham-Medium;
 }
 /* xứ mệnh */
 .title-reason {
@@ -91,33 +84,40 @@
 }
 
 .reason {
-    background-color: #fff;
-    margin-bottom: 50px;
-    border: 1px solid #bd945f;
+    border: 3px solid #bd945f;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    height: 114px;
+    margin-bottom: 24px;
 }
 
 .reason .reason-title {
     color: #bd945f;
-    font-size: 1.4em;
-    /* font-weight: 600; */
+    font-size: 0.9em;
+    margin-bottom: 8px;
+    font-family: Gotham-Medium;
     text-transform: uppercase;
 }
 
 .reason .reason-desc {
     color: #2c2e53;
     font-size: 0.9em;
-    /* font-weight: 600; */
     text-align: justify;
+    margin-bottom: 0;
+    font-family: Gotham-Medium;
 }
 
 .reason .reason-content {
-    padding: 1.6em;
+    margin-left: 16px;
 }
 
 .reason .reason-img {
     display: flex;
     align-items: center;
-    padding-left: 32px;
+}
+.reason .reason-img img {
+    /* max-width: 5rem; */
 }
 
 /* footer */
